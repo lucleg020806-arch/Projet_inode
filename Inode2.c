@@ -11,6 +11,7 @@
 
 #define DEMO_DIR "filesystem_demo"
 #define BLOCK_SIZE 4096ULL
+#define INODE_SIZE 256ULL
 
 static unsigned long long total_taille_logique = 0;
 static unsigned long long total_blocs_linux = 0;
